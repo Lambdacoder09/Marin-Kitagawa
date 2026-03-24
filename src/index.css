@@ -1,0 +1,287 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    @apply text-red-900 bg-gradient-to-br from-red-50 via-pink-100 to-red-50 font-sans;
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply min-h-screen m-0 p-0 relative overflow-x-hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Selection styling */
+  ::selection {
+    @apply bg-pink-500 text-white;
+  }
+
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    @apply w-3;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-red-100;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gradient-to-b from-red-500 to-red-600 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply from-red-400 to-red-500;
+  }
+}
+
+/* Animations */
+@layer utilities {
+  /* Blob animation */
+  @keyframes blob {
+    0%, 100% {
+      transform: translate(0, 0) scale(1);
+    }
+    25% {
+      transform: translate(20px, -50px) scale(1.1);
+    }
+    50% {
+      transform: translate(-20px, 20px) scale(0.9);
+    }
+    75% {
+      transform: translate(50px, 50px) scale(1.05);
+    }
+  }
+
+  .animate-blob {
+    animation: blob 7s infinite;
+  }
+
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+
+  /* Fade in animations */
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes scaleUp {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .animate-fade-in-left {
+    animation: fadeInLeft 0.8s ease-out forwards;
+  }
+
+  .animate-fade-in-right {
+    animation: fadeInRight 0.8s ease-out forwards;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  .animate-scale-up {
+    animation: scaleUp 0.4s ease-out forwards;
+  }
+
+  /* Glow effects */
+  .glow-pink {
+    text-shadow: 0 0 20px rgba(236, 72, 153, 0.5);
+  }
+
+  .glow-purple {
+    text-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  }
+
+  /* Glassmorphism */
+  .glass {
+    @apply bg-white/10 backdrop-blur-xl border border-white/20;
+  }
+
+  .glass-pink {
+    @apply bg-pink-500/10 backdrop-blur-xl border border-pink-400/20;
+  }
+
+  /* Smooth transitions */
+  .transition-smooth {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  /* Button styles */
+  .btn-gradient {
+    @apply bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-400 hover:to-purple-400 transition-all duration-300;
+  }
+
+  .btn-outline {
+    @apply border-2 border-pink-400/50 hover:border-pink-400 hover:bg-pink-400/10 transition-all duration-300;
+  }
+
+  /* Card hover effect */
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:shadow-pink-500/20 hover:-translate-y-1;
+  }
+
+  /* Gradient text */
+  .text-gradient {
+    @apply bg-gradient-to-r from-pink-400 via-purple-400 to-pink-400 bg-clip-text text-transparent;
+  }
+
+  /* Neon glow */
+  .neon-glow {
+    @apply shadow-lg shadow-pink-500/50 hover:shadow-pink-500/70;
+  }
+
+  /* Typewriter effect placeholder */
+  @keyframes type {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  .animate-type {
+    animation: type 3.5s steps(40, end);
+  }
+
+  /* Slideshow animation */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animate-slide-in {
+    animation: slideIn 0.5s ease-out;
+  }
+
+  /* Pulse glow */
+  @keyframes pulseGlow {
+    0%, 100% {
+      box-shadow: 0 0 20px rgba(236, 72, 153, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 40px rgba(236, 72, 153, 0.8);
+    }
+  }
+
+  .animate-pulse-glow {
+    animation: pulseGlow 2s ease-in-out infinite;
+  }
+
+  /* Float animation */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  /* Shimmer effect */
+  @keyframes shimmer {
+    0% {
+      background-position: -1000px 0;
+    }
+    100% {
+      background-position: 1000px 0;
+    }
+  }
+
+  .animate-shimmer {
+    animation: shimmer 2s infinite;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    background-size: 1000px 100%;
+  }
+}
+
+/* Responsive design tweaks */
+@layer components {
+  /* Section padding */
+  .section-padding {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+
+  /* Container max width utility */
+  .container-max {
+    @apply max-w-7xl mx-auto;
+  }
+
+  /* Text utilities */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Gradient border */
+  .border-gradient {
+    position: relative;
+    background-image: 
+      linear-gradient(100deg, transparent, transparent),
+      linear-gradient(180deg, rgb(236, 72, 153), rgb(168, 85, 247));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  *,
+  ::before,
+  ::after {
+    animation: none !important;
+  }
+}

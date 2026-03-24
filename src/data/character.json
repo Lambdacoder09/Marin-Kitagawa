@@ -1,0 +1,147 @@
+{
+  "name": "Marin Kitagawa",
+  "kanji": "喜多川 海夢",
+  "romaji": "Kitagawa Marin",
+  "nickname": "Marine",
+  "gender": "Female",
+  "species": "Human",
+  "personalDetails": {
+    "dateOfBirth": "March 5",
+    "zodiac": "Pisces ♓",
+    "age": "~15 (anime), older in manga",
+    "occupation": "Student, Model"
+  },
+  "physicalStats": {
+    "height": "164 cm",
+    "weight": "~50 kg",
+    "hair": "Blonde with pink/red tips (natural: dark brown)",
+    "eyes": "Dark pink (contacts), natural brown"
+  },
+  "outfitTypes": ["School uniform", "Casual outfits", "Cosplay costumes"],
+  "cosplayList": [
+    "Shizuku Kuroe",
+    "Black Lobelia",
+    "Prisoner Veronica",
+    "Liz-kyun",
+    "Arisa Izayoi",
+    "Rei Kogami",
+    "Sakuya Shiratori",
+    "Rose",
+    "Archangel Haniel"
+  ],
+  "relationships": {
+    "Wakana Gojo": "Main love interest, helps her create cosplay outfits, strong emotional bond",
+    "Father": "Works abroad, raised her alone",
+    "Friends": ["Nowa Sugaya", "Sajuna Inui", "Shinju Inui", "Other friends"]
+  },
+  "background": "Lost her mother at a young age. Lives mostly alone. Works as a model. Meets Wakana and starts cosplay journey.",
+  "keyTraits": [
+    "Loves expressing herself",
+    "Doesn’t care about judgment",
+    "Deep emotional honesty",
+    "Strong passion for characters"
+  ],
+  "funFacts": [
+    "Loves eating but stays slim",
+    "Bad at cooking",
+    "Cannot swim",
+    "Has tongue piercing (manga)",
+    "Obsessed with cosplay accuracy"
+  ],
+  "description": "A cheerful and confident second-year high school student with a passion for cosplay and fashion. Known for her outgoing personality and unwavering confidence, Marin is the life of the party with infectious energy and a heart of gold.",
+  "tagline": "Cosplay Your Dreams • Fashion Forward • Confidence On Point",
+  "profileImage": "https://cdn.zerochan.net/Kitagawa%2C_Marin.600.3650621.jpg",
+  "personality": [
+    "Cheerful and optimistic even in challenging situations",
+    "Confident without being arrogant or mean-spirited",
+    "Passionate about her interests with genuine enthusiasm",
+    "Supportive and encouraging to those around her",
+    "Quick-witted with sharp humor and playful banter"
+  ],
+  "traits": [
+    {
+      "name": "Cheerful",
+      "description": "Radiates positivity and infectious joy. Her smile can lift anyone's mood.",
+      "icon": "✨"
+    },
+    {
+      "name": "Confident",
+      "description": "Believes in herself and her dreams without doubt or hesitation.",
+      "icon": "💪"
+    },
+    {
+      "name": "Passionate",
+      "description": "Pursues her interests, especially cosplay, with genuine enthusiasm and dedication.",
+      "icon": "🔥"
+    },
+    {
+      "name": "Supportive",
+      "description": "Genuinely cares about others and lifts them up without judgment.",
+      "icon": "💖"
+    },
+    {
+      "name": "Creative",
+      "description": "Talented designer and fashion enthusiast with an eye for detail.",
+      "icon": "🎨"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I don't know much about manga, but if I like something, I'll do my best to make it perfect!",
+      "context": "Her determination to bring cosplay to life",
+      "episode": "Episode 1"
+    },
+    {
+      "text": "When you love something, you want everyone to see how great it is!",
+      "context": "About her passion for cosplay",
+      "episode": "Episode 2"
+    },
+    {
+      "text": "I'm not interested in people who don't have a dream!",
+      "context": "About the importance of pursuing your passions",
+      "episode": "Episode 3"
+    },
+    {
+      "text": "Let me help you! That's what friends do!",
+      "context": "Her supportive nature",
+      "episode": "Episode 5"
+    },
+    {
+      "text": "Being confident about yourself is the best outfit you can wear.",
+      "context": "About self-belief",
+      "episode": "Episode 6"
+    }
+  ],
+  "facts": [
+    {
+      "title": "Cosplay Enthusiast",
+      "description": "Despite knowing nothing about manga initially, Marin became a dedicated cosplayer and costume designer.",
+      "category": "Hobby"
+    },
+    {
+      "title": "Fashion Forward",
+      "description": "Has an exceptional sense of fashion and design, often creating intricate costumes with stunning detail.",
+      "category": "Skills"
+    },
+    {
+      "title": "Heart of Gold",
+      "description": "Known for her kindness and genuine care for people, even those she just met.",
+      "category": "Personality"
+    },
+    {
+      "title": "Popular and Outgoing",
+      "description": "One of the most popular students at school with a wide circle of friends and admirers.",
+      "category": "Social"
+    },
+    {
+      "title": "Anime Protagonist Energy",
+      "description": "Her unwavering optimism and determination to achieve her goals make her a natural leader.",
+      "category": "Character"
+    },
+    {
+      "title": "Photography Interest",
+      "description": "Enjoys documenting her cosplay creations and often takes photos of her costumes and friends.",
+      "category": "Hobby"
+    }
+  ]
+}

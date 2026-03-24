@@ -1,0 +1,84 @@
+{
+  "categories": [
+    {
+      "name": "Shizuku Cosplay",
+      "description": "Her iconic Shizuku Princess cosplay that started it all",
+      "images": [
+        {
+          "id": "shizuku-1",
+          "url": "https://cdn.zerochan.net/Kitagawa%2C_Marin.600.3650621.jpg",
+          "title": "Shizuku Princess - Full Outfit",
+          "category": "Shizuku Cosplay",
+          "description": "Complete Shizuku Princess costume with crown and elegant dress"
+        },
+        {
+          "id": "shizuku-2",
+          "url": "https://images.zerochan.net/Dress%20Up%20Darling/Kitagawa%2C_Marin.600.3577268.jpg",
+          "title": "Shizuku Detail Shot",
+          "category": "Shizuku Cosplay",
+          "description": "Close-up of the intricate costume details and crown"
+        }
+      ]
+    },
+    {
+      "name": "School Uniform",
+      "description": "Marin in her everyday school life",
+      "images": [
+        {
+          "id": "school-1",
+          "url": "https://cdn.zerochan.net/Kitagawa%2C_Marin.600.3611348.jpg",
+          "title": "School Uniform Smile",
+          "category": "School Uniform",
+          "description": "Marin in her school uniform with her signature cheerful smile"
+        },
+        {
+          "id": "school-2",
+          "url": "https://cdn.zerochan.net/My%20Dress-Up%20Darling.600.3400000.jpg",
+          "title": "School Hallway",
+          "category": "School Uniform",
+          "description": "Candid moment in the school hallway"
+        }
+      ]
+    },
+    {
+      "name": "Casual Style",
+      "description": "Off-duty fashion and casual wear",
+      "images": [
+        {
+          "id": "casual-1",
+          "url": "https://cdn.zerochan.net/Kitagawa%2C_Marin.600.3500000.jpg",
+          "title": "Casual and Cute",
+          "category": "Casual Style",
+          "description": "Marin in her everyday casual fashion"
+        },
+        {
+          "id": "casual-2",
+          "url": "https://cdn.zerochan.net/My%20Dress-Up%20Darling.600.3450000.jpg",
+          "title": "Fashion Forward",
+          "category": "Casual Style",
+          "description": "Showing off her trendy casual style"
+        }
+      ]
+    },
+    {
+      "name": "Character Moments",
+      "description": "Expressive character moments and emotions",
+      "images": [
+        {
+          "id": "moment-1",
+          "url": "https://cdn.zerochan.net/Kitagawa%2C_Marin.600.3650000.jpg",
+          "title": "Excited Expression",
+          "category": "Character Moments",
+          "description": "Marin's enthusiastic and excited expression"
+        },
+        {
+          "id": "moment-2",
+          "url": "https://cdn.zerochan.net/My%20Dress-Up%20Darling.600.3500100.jpg",
+          "title": "Confident Look",
+          "category": "Character Moments",
+          "description": "Her characteristic confident and determined look"
+        }
+      ]
+    }
+  ]
+}

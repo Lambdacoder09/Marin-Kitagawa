@@ -1,0 +1,27 @@
+{
+  "age": 17,
+  "school": "Shunjou City's Private High School",
+  "grade": "2nd Year",
+  "birthday": "June 25",
+  "hobbies": [
+    "Cosplay", 
+    "Fashion Design", 
+    "Photography",
+    "Anime & Manga"
+  ],
+  "favoriteGenres": [
+    "Fantasy",
+    "Shoujo",
+    "Action",
+    "Comedy"
+  ],
+  "skills": [
+    "Sewing & Tailoring",
+    "Costume Design",
+    "Fashion Sense",
+    "Makeup & Styling",
+    "Photography",
+    "Social Charisma",
+    "Problem-solving"
+  ]
+}
