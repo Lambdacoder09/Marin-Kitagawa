@@ -137,6 +137,11 @@ export default function HeroSection({ character }: HeroSectionProps) {
           <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
         </svg>
       </div>
+
+      {/* Disclaimer */}
+      <div className="absolute bottom-2 right-4 text-xs text-red-500/70">
+        Unofficial Fan Site
+      </div>
     </section>
   );
 }

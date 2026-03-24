@@ -17,6 +17,13 @@
           "title": "Shizuku Detail Shot",
           "category": "Shizuku Cosplay",
           "description": "Close-up of the intricate costume details and crown"
+        },
+        {
+          "id": "shizuku-3",
+          "url": "https://static.wikia.nocookie.net/sono-bisque-doll-wa-koi-wo-suru/images/2/28/Marin_Kitagawa_cosplaying_as_Shizuku_Kuroe.png/revision/latest/scale-to-width-down/1000?cb=20220225140100",
+          "title": "Shizuku Kuroe Cosplay",
+          "category": "Shizuku Cosplay",
+          "description": "Marin Kitagawa cosplaying as Shizuku Kuroe from Sono Bisque Doll wa Koi wo Suru"
         }
       ]
     },
@@ -37,6 +44,20 @@
           "title": "School Hallway",
           "category": "School Uniform",
           "description": "Candid moment in the school hallway"
+        },
+        {
+          "id": "school-3",
+          "url": "https://cdn.zerochan.net/Kitagawa%2C_Marin.600.3644195.jpg",
+          "title": "Summer School Uniform",
+          "category": "School Uniform",
+          "description": "Marin in her summer school uniform with V gesture"
+        },
+        {
+          "id": "school-4",
+          "url": "https://cdn.zerochan.net/Kitagawa%2C_Marin.600.3921345.jpg",
+          "title": "Classroom Moment",
+          "category": "School Uniform",
+          "description": "Marin in classroom with her cheerful expression"
         }
       ]
     },
@@ -57,6 +78,13 @@
           "title": "Fashion Forward",
           "category": "Casual Style",
           "description": "Showing off her trendy casual style"
+        },
+        {
+          "id": "casual-3",
+          "url": "https://cdn.zerochan.net/Kitagawa%2C_Marin.600.3560621.jpg",
+          "title": "Maid Outfit",
+          "category": "Casual Style",
+          "description": "Marin in a cute maid outfit with frills and accessories"
         }
       ]
     },
@@ -77,6 +105,26 @@
           "title": "Confident Look",
           "category": "Character Moments",
           "description": "Her characteristic confident and determined look"
+        }
+      ]
+    },
+    {
+      "name": "Swimwear",
+      "description": "Marin in various swimsuits and beachwear",
+      "images": [
+        {
+          "id": "swim-1",
+          "url": "https://cdn.zerochan.net/Kitagawa%2C_Marin.600.4223911.jpg",
+          "title": "Floral Bikini",
+          "category": "Swimwear",
+          "description": "Marin in a beautiful floral print side-tie bikini"
+        },
+        {
+          "id": "swim-2",
+          "url": "https://cdn.zerochan.net/Kitagawa%2C_Marin.600.4064137.jpg",
+          "title": "Black Bikini",
+          "category": "Swimwear",
+          "description": "Marin in an elegant black strap bikini"
         }
       ]
     }

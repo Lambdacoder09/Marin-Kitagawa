@@ -11,8 +11,9 @@ export default function Footer() {
               Marin Kitagawa
             </h3>
             <p className="text-red-700 text-sm leading-relaxed">
-              A premium fan site dedicated to Marin Kitagawa from "My Dress-Up Darling". 
+              An unofficial fan site dedicated to Marin Kitagawa from "My Dress-Up Darling".
               Celebrating her passion for cosplay, fashion, and infectious optimism.
+              This site is not affiliated with the original creators or publishers.
             </p>
           </div>
 
@@ -73,8 +74,12 @@ export default function Footer() {
             </div>
 
             <div className="text-right space-y-1">
+              <p className="text-xs font-medium text-red-800">
+                <strong>⚠️ Unofficial Fan Site</strong>
+              </p>
               <p className="text-xs">
-                <strong>Disclaimer:</strong> This is a fan-made site celebrating the character.
+                This is an unofficial fan-made website celebrating Marin Kitagawa.
+                Not affiliated with or endorsed by the original creators.
               </p>
               <p className="text-xs">
                 "My Dress-Up Darling" © Shinichi Fukuda
