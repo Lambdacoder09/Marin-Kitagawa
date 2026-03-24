@@ -1,6 +1,29 @@
 export interface CharacterData {
   name: string;
   fullName: string;
+  kanji: string;
+  romaji: string;
+  nickname: string;
+  gender: string;
+  species: string;
+  personalDetails: {
+    dateOfBirth: string;
+    zodiac: string;
+    age: string;
+    occupation: string;
+  };
+  physicalStats: {
+    height: string;
+    weight: string;
+    hair: string;
+    eyes: string;
+  };
+  outfitTypes: string[];
+  cosplayList: string[];
+  relationships: Record<string, string | string[]>;
+  background: string;
+  keyTraits: string[];
+  funFacts: string[];
   description: string;
   tagline: string;
   profileImage: string;

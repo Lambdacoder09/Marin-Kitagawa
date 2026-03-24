@@ -29,21 +29,19 @@ export default function HeroSection({ character }: HeroSectionProps) {
               {character.name}
             </h1>
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 bg-white/60 backdrop-blur-xl border border-red-200/70 rounded-2xl p-4 shadow-sm mb-4">
-            <div className="space-y-1">
-              <p className="text-xs uppercase tracking-widest text-red-500">Info</p>
-              <p className="text-lg sm:text-xl text-red-500 font-semibold tracking-wide">{character.fullName}</p>
+              <div className="space-y-1">
+                <p className="text-xs uppercase tracking-widest text-red-500">Profile Summary</p>
+                <p className="text-lg sm:text-xl text-red-500 font-semibold tracking-wide">{character.fullName}</p>
+                <p className="text-xs text-red-500">{character.kanji} • {character.romaji}</p>
+              </div>
+              <div className="text-right">
+                <p className="text-xs font-semibold text-red-600">{character.personalDetails.age}</p>
+                <p className="text-xs text-red-600">{character.personalDetails.dateOfBirth} • {character.personalDetails.zodiac}</p>
+                <p className="text-xs text-red-600">{character.personalDetails.occupation}</p>
+              </div>
             </div>
-            <div className="flex gap-2">
-              <button className="px-3 py-1 text-xs font-semibold text-red-700 bg-red-100 rounded-lg hover:bg-red-200">Search</button>
-              <button className="px-3 py-1 text-xs font-semibold text-white bg-red-600 rounded-lg hover:bg-red-700">Sign In</button>
-              <button className="px-3 py-1 text-xs font-semibold text-red-700 bg-pink-100 rounded-lg hover:bg-pink-200">Create Free Account</button>
-              <button className="px-3 py-1 text-xs font-semibold text-white bg-red-500 rounded-lg hover:bg-red-600">Explore</button>
-            </div>
-          </div>
 
-          <p className="text-lg sm:text-xl text-red-500 font-semibold tracking-wide">
-              {character.fullName}
-            </p>
+          <p className="text-lg sm:text-xl text-red-500 font-semibold tracking-wide">{character.nickname}</p>
           </div>
 
           <p className="text-xl text-red-700 leading-relaxed max-w-xl">
