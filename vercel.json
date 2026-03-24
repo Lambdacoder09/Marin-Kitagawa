@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "bun run build.ts",
+  "outputDirectory": "dist",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/dist/index.html"
+    }
+  ]
+}
